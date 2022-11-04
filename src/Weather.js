@@ -39,8 +39,16 @@ export default function Weather() {
           <div className="row">
             <div className="col-4">
               <h1>
-                <a className="units"> {weatherData.temperature}°F </a> |
-                <a className="units"> °C </a>
+                <button className="units"> {weatherData.temperature}°F </button>{" "}
+                |
+                <button
+                  href="#
+                "
+                  className="units"
+                >
+                  {" "}
+                  °C{" "}
+                </button>
               </h1>
             </div>
             <div className="col-3">
