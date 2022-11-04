@@ -60,6 +60,7 @@ export default function Weather() {
           </div>
         </div>
       </div>
+      <a href="https://github.com/MagdaCodes/weather-react">Open-source </a>
     </div>
   );
 }
